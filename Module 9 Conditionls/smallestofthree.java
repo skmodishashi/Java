@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class greatestofthree {
+public class smallestofthree {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter first no. : ");
@@ -9,17 +9,8 @@ public class greatestofthree {
         int b = sc.nextInt();
         System.out.print("Enter third no. : ");
         int c = sc.nextInt();
-       if(a>b && a>c) System.out.println(a + " is the Greatest");
-       else if(b>a && b>c) System.out.println(b + " is the Greatest");
-       else System.out.println(c + " is the Greatest");
+       if(a<b && a<c) System.out.println(a + " is the smallest");
+       else if(b<a && b<c) System.out.println(b + " is the smallest");
+       else System.out.println(c + " is the smallest");
 }
-}       // This is if-else if-else ladder
-
-
-
-
-
-
-
-
-
+}
