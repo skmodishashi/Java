@@ -11,4 +11,12 @@ public class ap2 {
         }
     }         
                 // a(n)=a+(n-1)d      a(n)=4+(n-1)3 = 3n+1
+
+
+
+            m-2
+            int a=4;
+            for(int i=1;i<=n;i++){
+            System.out.println(a);
+            a+=3;
 }
