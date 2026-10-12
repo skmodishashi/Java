@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class grade {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the Persentage(%) : ");
+        System.out.print("Enter the Percentage(%) : ");
         int a = sc.nextInt();
         if(a>=81) System.out.println("Very Good");  
         else if(a>=61) System.out.println("Good");

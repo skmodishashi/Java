@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Mod {
+public class mod {
    
    public static void main(String[] var0) {
       System.out.print("Enter no. : ");
