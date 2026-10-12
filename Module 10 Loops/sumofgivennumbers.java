@@ -12,7 +12,7 @@ public class sumofgivennumbers {
      sum +=ld;
      n/=10;
     }
-    System.out.println("Sum is "+sum);
+    System.out.println("Sum is "+sum);  
     
    }
 

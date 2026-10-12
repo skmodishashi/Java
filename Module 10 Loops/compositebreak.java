@@ -7,7 +7,9 @@ public class compositebreak {
         int n = sc.nextInt();
 
         for(int i=2;i<=n-1;i++){
-            if(n%i==0)System.out.println("Composite no.");
+            if(n%i==0){System.out.println("Composite no.");
+            break;}
+            else System.out.println("Not a composite number");
             break;
         }
     }      // composite means which is divided by other then 1 and itself
