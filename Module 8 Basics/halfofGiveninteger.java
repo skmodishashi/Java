@@ -7,7 +7,7 @@ public class halfofGiveninteger {
         // double y = (double)x;  // Typecasting changes datatype
         // System.out.println(y/2);
       
-        double y = sc.nextDouble();
+       double y = sc.nextDouble();
        int x =(int)y;  // typecasting double changes into integer
        System.out.println(x);    
     }
