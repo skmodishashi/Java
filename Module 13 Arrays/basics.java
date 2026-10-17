@@ -7,7 +7,11 @@ public class basics{
         arr[2] = 30;
         arr[3] = 40;
         arr[4] = 50;
-      
+        // Output
+        System.out.println(arr[3]);
+        // update
+        arr[3] = 90;
+        arr[3] += 10;
         System.out.print(arr[3]);
     }
 }
